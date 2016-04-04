@@ -1,0 +1,142 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//general
+* {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	margin: 0px;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;    
+    font-weight: 300;
+}
+
+body {
+	background-image: url('https://d9j5qtehtodpj.cloudfront.net/thumbnail/?image=a33e4753ecf311e498ddf23c91ae9cae&maxWidth=800&fittedCrop=0&version=122340');
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #F0F0F0;
+	//background-attachment: fixed;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: 500;
+	text-shadow: 2px 2px 0 black;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: 500;
+	text-shadow: 2px 2px 0 black;
+}
+
+//header
+#header {
+  	font-weight: bold;
+  	padding: 14px 10px;
+  	text-transform: uppercase;
+	background-color: #393939;
+	p {
+		text-align: left;
+		color: #FFFFFF;
+		font-family: Monospace;
+  		font-size: 13px;
+  		font-weight:500;
+	}
+}
+
+//content
+
+//search
+#searchwrap {
+	height: 200px;
+	padding-top: 100px;
+}
+
+#searchform-wrap {
+	height: 30px;
+	width: 500px;
+	border: 5px solid;
+	border-color: #838383;
+	border-radius: 4px;
+	background-color: #F9F9F9;
+    margin: auto;
+    margin-top: 10px; 
+    input {
+    	margin: auto;
+		margin-top: 3px;
+		background-color: transparent;
+    }
+}
+
+#search-input {
+	width: 400px;
+	border: 0px solid;
+}
+
+#search-button {
+	width: 90px;
+	color: #434343;
+	font-weight: 500;
+	border: 0px solid;
+	border-left: 1px solid;
+}
+
+//results
+#results {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#noresults {
+	padding-bottom: 350px;
+}
+
+#resultbox {
+	border-collapse: collapse;
+	background-color: #F9F9F9;
+	border: 1px solid grey;
+	border-radius: 4px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 12px;
+	width: 200px;
+	height: 215px;
+}
+
+#recipe_image {
+	padding: 7px auto;
+}
+
+#recipe_image img {
+	max-width: 100%;
+	max-height: 160px;
+}
+
+#recipe_title {
+	vertical-align: middle;
+	line-height: 60px;
+	a {
+		display:inline-block;
+		line-height:20px;
+		vertical-align: middle;
+	}
+}
+
+//footer
+#footer {
+	padding: 10px;
+	background-color: #D7D7D7;
+	margin-bottom: 0px;
+	p,a {
+		font-size: 12px;
+	}
+}
